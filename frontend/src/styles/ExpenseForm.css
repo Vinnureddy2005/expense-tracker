@@ -1,0 +1,78 @@
+.expense-form {
+  max-width: 800px;
+  margin: 30px auto;
+  background: #f9f9ff;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.expense-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.expense-subtitle {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.form-group input {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  background-color: #fff;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #4f46e5;
+  outline: none;
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+.form-submit {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.form-submit button {
+  padding: 12px 30px;
+  background: linear-gradient(to right, #4f46e5, #6366f1);
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.form-submit button:hover {
+  transform: scale(1.05);
+}

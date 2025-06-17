@@ -1,0 +1,156 @@
+.expense-list-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.expense-list-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.no-expense-msg {
+  color: #777;
+}
+
+.expense-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9fb;
+  padding: 15px 18px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: box-shadow 0.3s;
+}
+
+.expense-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.expense-category {
+  font-weight: bold;
+  color: #222;
+}
+
+.expense-details {
+  font-size: 14px;
+  color: #666;
+}
+
+.expense-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  margin-left: 12px;
+}
+
+.edit-btn {
+  color: #2563eb;
+}
+
+.edit-btn:hover {
+  color: #1d4ed8;
+}
+
+.delete-btn {
+  color: #dc2626;
+}
+
+.delete-btn:hover {
+  color: #b91c1c;
+}
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 450px;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: #333;
+}
+
+.modal-form input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.cancel-btn {
+  background: #d1d5db;
+  color: #111;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  background: #9ca3af;
+}
+
+.save-btn {
+  background: #22c55e;
+  color: white;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background: #16a34a;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

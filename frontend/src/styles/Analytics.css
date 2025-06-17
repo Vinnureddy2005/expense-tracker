@@ -1,0 +1,53 @@
+/* .analytics-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.analytics-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.analytics-loading {
+  color: #666;
+  font-size: 16px;
+} */
+
+.analytics-container {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.analytics-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #111827;
+}
+
+.analytics-loading {
+  text-align: center;
+  color: #6b7280;
+  font-style: italic;
+  margin-top: 2rem;
+}
+
+/* Optional spacing between charts */
+.chart-block {
+  margin-top: 2rem;
+}
